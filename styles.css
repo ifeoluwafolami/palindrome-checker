@@ -1,0 +1,127 @@
+*::before,
+*,
+*::after {
+    box-sizing: border-box;
+}
+
+/* root {} */
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #0c5349;
+    color: #dfdce3;
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+main {
+    text-align: center;
+    width: 60%;
+}
+
+.midas {
+    font-size: 2.5rem;
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    margin-bottom: 0.5rem;
+}
+
+h1.is-it {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 3.5rem;
+    margin-top: 0;
+}
+
+@media screen and (max-width: 900px) {
+    main {
+        width: 80%;
+    }
+
+    .midas {
+        font-size: 2rem;
+    }
+
+    h1.is-it {
+        font-size: 3rem;
+    }
+}
+
+.text-box {
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+    height: 15rem;
+    max-width: 640px;
+    background-color: #dfdce3;
+    color: #0c5349;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5rem;
+    margin-top: 4rem;
+}
+
+
+.text-box p {
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    /* background-color: aquamarine; */
+}
+
+#text-input {
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 3rem;
+    width: 70%;
+    background-color: transparent;
+    border: none;
+    padding-bottom: 0;
+    text-align: center;
+    color: #0c5349;
+    font-size: 3rem;
+    border-bottom: dashed;
+}
+
+.text-box button {
+    background-color: #0c5349;
+    width: 10rem;
+    margin: 0 auto;
+    border: none;
+    color: #dfdce3;
+    padding: 1rem 2rem;
+}
+
+#result {
+    height: 4rem;
+    margin-top: 4rem;
+    margin-bottom: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.palindrome-exp {
+    margin-top: 4rem;
+    font-size: 1.5rem;
+}
+
+.strong {
+    font-weight: bold;
+}
